@@ -12,3 +12,4 @@ ui: yarn run esbuild --watch
 grpcui: go run ./devtools/waitfor tcp://localhost:1234 && go run github.com/fullstorydev/grpcui/cmd/grpcui -plaintext -open-browser=false -port 8234 localhost:1234
 
 oidc: ./bin/mockoidc
+ 
